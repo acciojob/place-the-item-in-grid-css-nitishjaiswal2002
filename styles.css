@@ -1,2 +1,17 @@
 
 /* Your CSS Code here. */
+.holder {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two columns with equal width */
+  grid-template-rows: 1fr 1fr;    /* Two rows with equal height */
+  width: 200px;                   /* Total size of 200px */
+  grid-gap: 10px;                 /* Gap between grid items (adjust as needed) */
+}
+
+.item {
+  /* Individual item properties (styling) */
+  background-color: lightblue;
+  padding: 10px;
+  border: 1px solid #333;
+  text-align: center;
+}
